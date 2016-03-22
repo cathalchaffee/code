@@ -1,6 +1,6 @@
 #!/bin/bash
-echo "enter name of the bash script (without the .sh)"
 
-read script
+
+script=$1
 chmod u+x $script.sh
 cp $script.sh /usr/local/bin/$script
